@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&display=swap');
+body{
+    font-family: 'Roboto Slab',sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+h1{
+    text-align: center;
+}
+h2{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+h3{
+    font-size: 30px;
+    color: mintcream;
+    text-align: left;
+    margin: 20px 20px 5px 5px;
+}
+nav a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    font-weight: bold;
+}
+
+nav li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 15px;
+}
+nav{
+    background-color:crimson;
+    padding: 5px ;
+    position: sticky;
+    top: 0;
+}
+.bg{
+    background-image: url(img/bg.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 200px;
+}
+.centerword{
+    background-color: mintcream;
+}
+.leftcontent{
+    width: 39%;
+    height: 100%;
+    float: left;
+}
+.rightcontent{
+    width: 60%;
+    height: 100%;
+    float: right;
+}
+.rightcontent p{
+    text-align: center;
+}
+header{
+    font-style: oblique;
+    font-size: 30px;
+    color: crimson;
+}
+footer{
+    padding: 25px;
+    background-color: crimson;
+}
+footer p{
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    color: mintcream;
+    margin: 20px;
+    font-family: 'Noto Serif',serif;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: justify;
+    padding: 10px;
+}
+main{
+    padding: 20px;
+    overflow: auto;
+}
+.button{
+    background-color: mintcream;
+    color: black;
+    border: 2px solid crimson;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+    margin: 3px 4px;
+    width: 180px;
+    transition-duration: 0.2s;
+}
+.button:hover{
+    background-color: crimson;
+    color: mintcream;
+}
+.featured-img{
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
